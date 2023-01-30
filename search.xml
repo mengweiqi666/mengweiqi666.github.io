@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2023/01/28/hello-world/</url>
+    <url>/pages/uncategorized/hello-world.html</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
 
@@ -19,8 +19,67 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Vue</title>
+    <url>/pages/uncategorized/Vue.html</url>
+    <content><![CDATA[<h2>Heading level 2</h2>]]></content>
+      <tags>
+        <tag>DEPLOY</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第二篇博客</title>
-    <url>/2023/01/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <url>/pages/Cheshi/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
     <content><![CDATA[<h1>Heading level 1</h1>]]></content>
+      <categories>
+        <category>Cheshi</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>java环境安装</title>
+    <url>/pages/environment/java%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.html</url>
+    <content><![CDATA[<h3>环境安装</h3>
+
+<p>本篇笔记记录java环境安装，防止更换电脑等</p>
+
+<h4>下载</h4>
+文件下载地址：[下载地址](https://www.oracle.com/java/technologies/downloads/#java8)
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/java/java%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BD%BD.png"
+                      alt="java下载" title="java下载"
+                ></p>
+<p>下载完成后，双击可执行文件，然后一直下一步即可。期间可以更改文件安装位置。<b>但是一定要记住自己的安装位置</b></p>
+<h3>配置java环境变量</h3>
+右键“此电脑”，然后选择“属性”，“高级系统设置”
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/java/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.png"
+                      alt="环境变量" title="环境变量"
+                ></p>
+<h4>在系统变量中进行操作</h4>
+<b>新建</b>"JAVA_HOME",变量值为：C:\DevEnvironment\java\java8（jdk安装路径，这里写的是我自己的）
+
+<p><b>修改</b>“Path”，变量值添加：%JAVA_HOME%\bin。如下</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/java/path%E5%8F%98%E9%87%8F%E4%BF%AE%E6%94%B9.png"
+                      alt="修改Path变量" title="path修改"
+                ></p>
+<p>点击确定，测试环境变量是否生效。win+r输入cmd，执行javac或者java -version如下</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/java/%E6%B5%8B%E8%AF%95java%E7%8E%AF%E5%A2%83.png"
+                      alt="测试java环境" title="测试java环境"
+                ></p>
+]]></content>
+      <categories>
+        <category>environment</category>
+      </categories>
   </entry>
 </search>
