@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/pages/uncategorized/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Vue</title>
     <url>/pages/uncategorized/Vue.html</url>
     <content><![CDATA[<h2>Heading level 2</h2>]]></content>
@@ -27,23 +9,169 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第二篇博客</title>
-    <url>/pages/Cheshi/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
-    <content><![CDATA[<h1>Heading level 1</h1>]]></content>
+    <title>maven环境安装</title>
+    <url>/pages/environment/maven%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.html</url>
+    <content><![CDATA[<p>本篇笔记记录maven环境安装</p>
+
+<h3>maven环境安装</h3>
+<h4>maven文件下载</h4>
+
+<p>文件下载地址：<a class="link"   href="https://maven.apache.org/download.cgi" >maven官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>百度网盘下载：<a class="link"   href="https://pan.baidu.com/s/1UINnC-0RWUphHjfUuQjuCA" >网盘地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>提取码：tglq</p>
+<p>下载流程<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E4%B8%8B%E8%BD%BD1.png"
+                      alt="maven下载1"
+                ><br>选择版本<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E4%B8%8B%E8%BD%BD2.png"
+                      alt="maven下载2"
+                ><br>选择二进制文件<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E4%B8%8B%E8%BD%BD3.png"
+                      alt="maven下载3"
+                ><br>下载安装包<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E4%B8%8B%E8%BD%BD4.png"
+                      alt="maven下载4"
+                ></p>
+<h4>安装</h4>
+
+<p>找到合适位置解压文件即可</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE.png"
+                      alt="maven安装位置"
+                ></p>
+<h4>配置环境变量</h4>
+进入环境变量操作窗口就不进行赘述了
+右键此电脑/我的电脑-----属性-----高级系统设置-----环境变量。出现窗口
+
+<p>新建环境变量：MAVEN_HOME</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.png"
+                      alt="环境变量配置"
+                ></p>
+<p><b>然后在Path变量中进行追加：%MAVEN_HOME%\bin</b></p>
+<p>判断是否配置成功：win+r输入cmd，然后运行mvn -v</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/maven%E9%85%8D%E7%BD%AE%E6%98%AF%E5%90%A6%E6%88%90%E5%8A%9F.png"
+                      alt="配置是否成功"
+                ></p>
+<h4>修改配置</h4>
+<h3>setting文件修改</h3>
+在maven安装目录下conf文件夹下复制一份setting.xml到conf同级，然后修改
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/setting%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9.png"
+                      alt="修改setting文件"
+                ></p>
+<p>修改下载依赖存放地址</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/setting%E4%BF%AE%E6%94%B91.png"
+                      alt="修改下载依赖存放地址"
+                ></p>
+<p>修改下载镜像地址<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/maven/setting%E4%BF%AE%E6%94%B92.png"
+                      alt="修改下载镜像地址"
+                ><br>修改下载镜像地址源码</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;mirror&gt;</span><br><span class="line">    &lt;<span class="built_in">id</span>&gt;nexus-aliyun&lt;/id&gt;</span><br><span class="line">    &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;</span><br><span class="line">    &lt;name&gt;Nexus aliyun&lt;/name&gt;</span><br><span class="line">    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public&lt;/url&gt;</span><br><span class="line">&lt;/mirror&gt;</span><br><span class="line">&lt;mirror&gt;</span><br><span class="line">    &lt;<span class="built_in">id</span>&gt;maven-default-http-blocker&lt;/id&gt;</span><br><span class="line">    &lt;mirrorOf&gt;external:http:*&lt;/mirrorOf&gt;</span><br><span class="line">    &lt;name&gt;Pseudo repository to mirror external repositories initially using HTTP.&lt;/name&gt;</span><br><span class="line">    &lt;url&gt;http://0.0.0.0/&lt;/url&gt;</span><br><span class="line">    &lt;blocked&gt;<span class="literal">true</span>&lt;/blocked&gt;</span><br><span class="line">&lt;/mirror&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>至此maven环境安装完成</p>
+]]></content>
       <categories>
-        <category>Cheshi</category>
+        <category>environment</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>git环境安装</title>
+    <url>/pages/environment/git%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.html</url>
+    <content><![CDATA[<p>本篇笔记记录git环境安装，包含常用git工具的安装</p>
+
+<h3>git环境安装</h3>
+<h4>git文件下载</h4>
+
+<p>文件下载地址：<a class="link"   href="https://git-scm.com/" >git官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>使用官网下载git较慢，可以尝试使用电脑自带的管家系统(我的就是联想电脑管家)<br>也可以使用我的网盘地址（2.39.0）：<a class="link"   href="https://pan.baidu.com/s/1e0XwYHoTgwvU0Sn5pDVNyg" >git网盘下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>提取码：xopk</p>
+<h4>安装</h4>
+
+<p>选择组件</p>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/git/%E9%80%89%E6%8B%A9%E7%BB%84%E4%BB%B6.png"
+                      alt="git选择组件" title="git选择组件"
+                ></p>
+<p>然后就一直下一步即可安装完成</p>
+<h3>TortoiseGitan安装</h3>
+
+<p>如果你对git的命令不是很熟悉，可以使用这个工具来提升工作效率</p>
+
+<p>页面如下</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/git/%E5%B7%A5%E5%85%B7%E6%88%AA%E5%9B%BE1.png"
+                      alt="TortoiseGit工具截图"
+                ></p>
+<h3>TortoiseGit工具安装</h3>
+<h4>TortoiseGit文件下载</h4>
+
+<p>文件下载地址：<a class="link"   href="https://download.tortoisegit.org/tgit/" >TortoiseGit <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>网盘下载地址：<a class="link"   href="https://pan.baidu.com/s/1xwVehf_4lWqWgaQdAKR64g" >网盘下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>提取码：bvf0 </p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/git/TortoiseGit%E7%BD%91%E7%AB%99.png"
+                      alt="TortoiseGit网站截屏"
+                ></p>
+<p>安装对应版本以及下载指定汉化包<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/git/%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E6%B1%89%E5%8C%96%E5%8C%85.png"
+                      alt="TortoiseGit下载地址以及汉化包"
+                ></p>
+<p>下载完成后执行，然后一直下一步即可。汉化包同样</p>
+<p>安装汉化包后语言选择选择</p>
+<p>右键设置<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/git/%E5%B7%A5%E5%85%B7%E6%88%AA%E5%9B%BE1.png"
+                      alt="TortoiseGit工具截图"
+                ></p>
+<p>选择中文<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/environment/git/%E8%AF%AD%E8%A8%80%E9%80%89%E6%8B%A9.png"
+                      alt="选择中文"
+                ></p>
+<p>至此git环境与便捷工具安装完成</p>
+]]></content>
+      <categories>
+        <category>environment</category>
       </categories>
   </entry>
   <entry>
     <title>java环境安装</title>
     <url>/pages/environment/java%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.html</url>
-    <content><![CDATA[<h3>环境安装</h3>
-
-<p>本篇笔记记录java环境安装，防止更换电脑等</p>
+    <content><![CDATA[<p>本篇笔记记录java环境安装，便于更换电脑时未安装而烦恼</p>
 
 <h4>下载</h4>
-文件下载地址：[下载地址](https://www.oracle.com/java/technologies/downloads/#java8)
 
+<p>文件下载地址：<a class="link"   href="https://www.oracle.com/java/technologies/downloads/#java8" >下载地址 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
